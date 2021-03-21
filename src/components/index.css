@@ -1,0 +1,74 @@
+.Home {
+  padding: 20px;
+  text-align: center;
+  color: blue;
+  background-color: cornsilk;
+}
+
+.Home2 {
+  padding: 20px;
+  text-align: center;
+  background-color: khaki;
+}
+
+.nav {
+  background: white;
+  font-size: 18px;
+  text-align: center;
+  font-style: italic;
+  border-radius: 20px;
+}
+
+.nav a {
+  float: left;
+  display: block;
+  color: rgb(134, 95, 95);
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.nav a:hover {
+  color: blue;
+  background-color: tomato;
+  border-radius: 0px;
+  text-decoration-color: white;
+}
+
+.login {
+  color: rgb(65, 192, 192);
+  padding: 20px;
+}
+.register {
+  color: rgb(65, 192, 192);
+  padding: 20px;
+}
+
+.first-name,
+.last-name {
+  color: rgb(63, 63, 141);
+  align-items: middle;
+}
+
+.laukeliai {
+  color: orange;
+  vertical-align: middle;
+}
+
+.tekstas {
+  color: violet;
+  width: 150px;
+}
+
+.header {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+}
