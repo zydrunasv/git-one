@@ -12,11 +12,15 @@
 }
 
 .nav {
+  position: relative;
+  top: 0;
+  left: 0;
   background: white;
   font-size: 18px;
   text-align: center;
   font-style: italic;
   border-radius: 20px;
+  border-width: 1px;
 }
 
 .nav a {
@@ -36,11 +40,12 @@
 
 .login {
   color: rgb(65, 192, 192);
-  padding: 20px;
+  padding: 60px;
 }
+
 .register {
   color: rgb(65, 192, 192);
-  padding: 20px;
+  padding: 60px;
 }
 
 .first-name,

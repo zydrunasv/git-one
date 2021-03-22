@@ -4,17 +4,19 @@ import "./index.css";
 
 const Navbar = () => {
   return (
-    <nav className="ui segment">
-      <div className="Nav">
-        <button className="nav">
-          <a href="/">Home</a>
-        </button>
-        <button className="nav">
-          <NavLink to="/login">Login</NavLink>
-        </button>
-        <button className="nav">
-          <NavLink to="/register">Register</NavLink>
-        </button>
+    <nav className="ui-segment">
+      <div className="nav">
+        <NavLink to="/">
+          <button className="nav">Home</button>
+        </NavLink>
+
+        <NavLink to="/login">
+          <a className="nav">Login</a>
+        </NavLink>
+
+        <NavLink to="/register">
+          <a className="nav">Register</a>
+        </NavLink>
       </div>
     </nav>
   );
