@@ -54,12 +54,12 @@
   align-items: middle;
 }
 
-.fields-for-register {
-  color: blanchedalmond;
+.laukeliai {
+  color: orange;
   vertical-align: middle;
 }
 
-.filling {
+.tekstas {
   color: violet;
   width: 150px;
 }
@@ -73,10 +73,6 @@
 }
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
   background-color: #f1f1f1;
   text-align: center;
   padding: 10px;
