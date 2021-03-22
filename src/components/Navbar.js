@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="ui segment">
       <div className="Nav">
         <button className="nav">
-          <NavLink to="/">Home</NavLink>
+          <a href="/">Home</a>
         </button>
         <button className="nav">
           <NavLink to="/login">Login</NavLink>
