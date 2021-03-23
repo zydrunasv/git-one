@@ -4,7 +4,7 @@ import "./index.css";
 const Home = () => {
   return (
     <div className="home">
-      <h3>Pagrindinis puslapis</h3>
+      <h3>Main Page</h3>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever

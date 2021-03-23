@@ -5,7 +5,7 @@ const Register = () => {
   return (
     <div>
       <div className="register"> Register for Bandymas</div>
-      <form className="laukeliai">
+      <form className="fields">
         <label for="first-name">First name</label>
         <br />
         <input type="text" className="tekstas"></input> <br />
