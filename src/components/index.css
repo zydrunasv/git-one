@@ -1,51 +1,59 @@
-.Home {
-  padding: 20px;
-  text-align: center;
-  color: blue;
-  background-color: cornsilk;
+body {
+  background-color: rgb(206, 151, 151);
 }
 
-.Home2 {
+.home {
   padding: 20px;
   text-align: center;
-  background-color: khaki;
+  color: black;
 }
 
-.nav {
+.container {
+  background-color: rgb(122, 255, 211);
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 20px 35px;
+  padding-top: 20px;
   position: relative;
-  top: 0;
-  left: 0;
-  background: white;
-  font-size: 18px;
-  text-align: center;
-  font-style: italic;
-  border-radius: 20px;
-  border-width: 1px;
 }
 
-.nav a {
-  float: left;
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: "";
   display: block;
-  color: rgb(134, 95, 95);
-  text-align: center;
-  padding: 14px 16px;
+  height: 3px;
+  width: 0%;
+  background-color: #444;
 }
 
-.nav a:hover {
-  color: blue;
-  background-color: tomato;
-  border-radius: 0px;
-  text-decoration-color: white;
+nav a:hover::before {
+  width: 100%;
+  transition: all ease-in-out 150ms;
 }
 
 .login {
-  color: rgb(65, 192, 192);
-  padding: 60px;
+  margin: 20px 50px;
 }
 
 .register {
-  color: rgb(65, 192, 192);
-  padding: 60px;
+  margin: 20px 20px;
 }
 
 .first-name,
@@ -54,12 +62,12 @@
   align-items: middle;
 }
 
-.laukeliai {
-  color: orange;
+.fields-for-register {
+  color: blanchedalmond;
   vertical-align: middle;
 }
 
-.tekstas {
+.filling {
   color: violet;
   width: 150px;
 }
@@ -73,6 +81,10 @@
 }
 
 .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: #f1f1f1;
   text-align: center;
   padding: 10px;

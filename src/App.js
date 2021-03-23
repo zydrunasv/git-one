@@ -8,13 +8,15 @@ import Register from "./components/Register";
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="ui first line">
-        <div className="header"> Practise</div>
-        <Navbar />
-        <Route exact path="/" exact component={Home} />
-        <Route exact path="/Login" exact component={Login} />
-        <Route exact path="/Register" exact component={Register} />
-        <div className="footer">Zydrunas Valciukas 2021</div>
+      <div>
+        <body>
+          <header className="header">First Web Page</header>
+          <Navbar />
+          <Route exact path="/" exact component={Home} />
+          <Route exact path="/Login" exact component={Login} />
+          <Route exact path="/Register" exact component={Register} />
+          <footer className="footer">Zydrunas Valciukas 2021</footer>
+        </body>
       </div>
     </BrowserRouter>
   );
