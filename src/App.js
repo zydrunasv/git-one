@@ -6,6 +6,9 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import About from "./components/About";
 import background from "./img/nature.jpg";
+import AboutUs from "./components/AboutUs";
+import Contact from "./components/Contact";
+import Address from "./components/Address";
 
 const App = () => {
   return (
@@ -21,6 +24,9 @@ const App = () => {
           <Route exact path="/About" exact component={About} />
           <Route exact path="/Login" exact component={Login} />
           <Route exact path="/Register" exact component={Register} />
+          <Route exact path="/AboutUs" exact component={AboutUs} />
+          <Route exact path="/Contact" exact component={Contact} />
+          <Route exact path="/Address" exact component={Address} />
           <footer className="footer">Zydrunas Valciukas 2021</footer>
         </body>
       </div>

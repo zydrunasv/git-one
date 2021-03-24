@@ -5,9 +5,14 @@
 }
 
 .home {
-  padding: 20px;
+  padding: 100px;
+  font-size: 25px;
   text-align: center;
   color: black;
+}
+
+.home-text {
+  font-size: 18px;
 }
 
 ul {
@@ -18,20 +23,24 @@ ul {
 
 ul li {
   float: left;
-  width: 150px;
-  height: 30px;
+  width: 180px;
+  height: 32px;
   background-color: darkgrey;
-  opacity: 0.9;
+  opacity: 0.8;
   text-align: center;
+  font-weight: 800;
   font-size: 20px;
-  margin-right: 4px;
-  box-shadow: 10px 10px 10px grey;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 9px;
+  box-shadow: 10px 10px 10px black;
 }
 
 ul li a {
   text-decoration: none;
   color: white;
-  display: block;
+  display: unset;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
 ul li ul li {
@@ -40,13 +49,6 @@ ul li ul li {
 
 ul li:hover ul li {
   display: block;
-}
-
-nav a {
-  color: #444;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 14px;
 }
 
 nav a:hover {
@@ -67,17 +69,28 @@ nav a:hover::before {
 }
 
 .login {
-  margin: 20px 50px;
+  padding: 50px;
+  text-align: center;
+  font-size: 20px;
 }
 
 .register {
-  margin: 20px 20px;
+  padding: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.About {
+  padding: 50px;
+  text-align: center;
+  font-size: 20px;
 }
 
 .first-name,
 .last-name {
   color: rgb(63, 63, 141);
-  align-items: middle;
+  align-items: center;
+  text-align: center;
 }
 
 .fields-for-register {
@@ -86,8 +99,8 @@ nav a:hover::before {
 }
 
 .filling {
-  color: violet;
-  width: 150px;
+  color: darkblue;
+  width: 200px;
 }
 
 .header {
@@ -95,6 +108,7 @@ nav a:hover::before {
   padding: 20px;
   font-size: 30px;
   font-weight: bold;
+  text-shadow: 10px 10px 10px black;
 }
 
 .footer {
@@ -104,4 +118,16 @@ nav a:hover::before {
   width: 100%;
   text-align: center;
   padding: 10px;
+}
+
+.AboutUs,
+.Contact,
+.Address {
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.dropdown-text {
+  text-align: center;
 }
