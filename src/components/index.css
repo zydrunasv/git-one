@@ -1,7 +1,9 @@
 .background {
-  height: 100vh;
-  margin: 0;
+  background: no-repeat center fixed;
+  min-height: 100vh;
   background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 .home {
@@ -112,12 +114,12 @@ nav a:hover::before {
 }
 
 .footer {
-  position: fixed;
-  left: 0;
+  position: absolute;
   bottom: 0;
   width: 100%;
   text-align: center;
   padding: 10px;
+  text-shadow: 10px 10px 10px black;
 }
 
 .AboutUs,

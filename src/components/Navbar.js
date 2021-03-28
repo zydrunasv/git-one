@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { NavbarDropdown } from "react-navbar-dropdown/dist/navbar-dropdown";
 import { NavLink } from "react-router-dom";
 import "./index.css";
 
@@ -15,13 +16,13 @@ class Navbar extends Component {
               <NavLink to="/about">About</NavLink>
               <ul className="dropdown-fields">
                 <li className="dropdown">
-                  <a href="/AboutUs">about us</a>
+                  <NavLink to="/AboutUs">about us</NavLink>
                 </li>
                 <li className="dropdown">
-                  <a href="/contact">how to contact us</a>
+                  <NavLink to="/contact">how to contact us</NavLink>
                 </li>
                 <li className="dropdown">
-                  <a href="/address">address</a>
+                  <NavLink to="/address">address</NavLink>
                 </li>
               </ul>
             </li>
